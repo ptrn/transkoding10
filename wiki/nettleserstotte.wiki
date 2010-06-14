@@ -11,3 +11,5 @@
 || http://transkoding10.googlecode.com/files/icon-ball-blue.png || støtte kommer i gitt fremtidig utgivelse ||
 || http://transkoding10.googlecode.com/files/icon-ball-yellow.png || støtte kommer i ubestemt fremtidig utgivelse ||
 || http://transkoding10.googlecode.com/files/icon-ball-red.png || ingen støtte, hverken nå eller i planlagt fremtid ||
+
+Tabell utledet fra: [http://diveintohtml5.org/video.html#what-works diveintohtml5.org]
