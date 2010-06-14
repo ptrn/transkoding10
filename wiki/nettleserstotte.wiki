@@ -1,0 +1,3 @@
+#undersøkelse av hvilke nettlesere som støtter hva av åpne standarder
+
+|| *Innkapslingsformat* || *IE6* || *IE7* || *IE8* ||
