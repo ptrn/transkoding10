@@ -6,3 +6,7 @@
 
   * [http://www.webmproject.org/ utvilkerinformasjon]
   * [http://www.quavlive.com/video_codec_comparison h.264 vs. WebM]
+
+=== Avspilling i VLC ===
+
+Last ned nyeste Release Candidate fra [http://www.videolan.org/~videolan/win32/ VideoLAN.org] for å muliggjøre avspilling.
