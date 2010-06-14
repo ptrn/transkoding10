@@ -4,4 +4,5 @@
 
 == Ressurser ==
 
-[http://www.webmproject.org/ utvilkerinformasjon]
+  * [http://www.webmproject.org/ utvilkerinformasjon]
+  * [http://www.quavlive.com/video_codec_comparison h.264 vs. WebM]
