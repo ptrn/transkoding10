@@ -1,0 +1,19 @@
+#møtereferater
+
+= Møter =
+
+== Skypemøte, 15. juni '10 ==
+
+  * Fase 1)
+    * kartlegge endringer og nyheter det siste året
+  * Fase 2)
+    * forbedre serversideverktøy (TTC)
+
+  * streaming og spoling
+    * modifisering av HTTP-forespørsler (hvilke modifiseringer?)
+    * forespørre server om lengde på film
+      * sett MIME-type på filer gitt fra server
+  * underteksting
+    * [http://www.w3.org/TR/media-frags/ W3's standardiseringsprosjekt]
+      * basert på [http://annodex.net/TR/draft-pfeiffer-temporal-fragments-03.html Annodex]
+    * [http://www.drumbeat.org/project/universal-subtitles Mozilla's Universal Subtitles]
