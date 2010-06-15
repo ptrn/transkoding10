@@ -7,7 +7,7 @@
 
 Tabell utledet fra: [http://diveintohtml5.org/video.html#what-works diveintohtml5.org]
 
-^*^ _for avspilling av WebM-video må brukeren installere en plug-in ([http://windowsteamblog.com/windows/b/bloggingwindows/archive/2010/05/19/another-follow-up-on-html5-video-in-ie9.aspx kilde])_
+^*^ _for avspilling av WebM-video i IE må brukeren installere en plug-in ([http://windowsteamblog.com/windows/b/bloggingwindows/archive/2010/05/19/another-follow-up-on-html5-video-in-ie9.aspx kilde])_
 
 || http://transkoding10.googlecode.com/files/icon-ball-green.png || støttet i siste utgivelse ||
 || http://transkoding10.googlecode.com/files/icon-ball-blue.png || støtte kommer i gitt fremtidig utgivelse ||
