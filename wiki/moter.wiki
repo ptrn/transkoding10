@@ -4,7 +4,10 @@
 
 == Skypemøte, 15. juni '10 ==
 
-<a href="http://transkoding10.googlecode.com/files/mote-10.06.15-skjema.png"><img src="http://transkoding10.googlecode.com/files/mote-10.06.15-skjema.png" height="400px" /></a>
+<a href="http://transkoding10.googlecode.com/files/mote-10.06.15-modell.png"><img src="http://transkoding10.googlecode.com/files/mote-10.06.15-modell.png" height="400px" /></a>
+
+_Vaaler's vakre modell av hvordan verden er (kilde: [https://docs.google.com/drawings/edit?id=1GIr5PEW0lbC_cBIKS2Cov2KmFkjg5Otccc5yzKbpkbE&hl=en Google Docs])_ 
+
 
   * Fase 1)
     * kartlegge endringer og nyheter det siste året
@@ -21,3 +24,18 @@
     * [http://www.drumbeat.org/project/universal-subtitles Mozilla's Universal Subtitles]
 
   * biblioteker
+    * TTC
+    * alternativ til TTC
+      * merk at systemet allerede er såpass bundet til TTC at søk etter alternativer bør tones ned
+    * [http://www.mediawiki.org/wiki/MwEmbed mwEmbed]
+      * se på forbedringer siden forgjengeren, [http://metavid.org/w/index.php/Mv_embed Mv Embed]
+      * se etter alternative biblioteker
+  * publiseringsløsninger
+    <wiki:comment>* firmaet til Vanja</wiki:comment>
+    * [http://ccnmtl.columbia.edu/our_services/vital/introduction_to_vital.html VITAL]
+    * [http://www.mediamosa.org/ MediaMosa]
+    * hør med Andreas Bergstrøm ang. dokument publisert om CMS-system
+    * [http://corp.kaltura.com/ Kaltura]
+
+
+
