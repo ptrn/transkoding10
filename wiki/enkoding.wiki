@@ -2,49 +2,20 @@
 
 For Ubuntu 9.04:
 {{{
-# legg til støtte for proprietære formater (AAC/MP3/MP4/h.264 m.f.),
-# og samtidig installer ffmpeg
+# legg til støtte for de proprietære formater AAC, MP3 og h.264,
+# forbedrede biblioteker for Vorbis og Theora,
+# og installer ffmpeg
 sudo apt-get install ffmpeg libavcodec-unstripped-52
 }}}
 
 _[http://ubuntuforums.org/showthread.php?t=1117283 kilde]_
 
-=== MP4 (h.264+AAC) ===
-
-{{{
-ffmpeg -i FIL_INN -f mp4 -vcodec libx264 -b BITRATE_BILDE -acodec libfaac -ab BITRATE_LYD -sameq FIL_UT.mp4
-}}}
-
-Konstant bithastighet for lyd, variabel for video. Begge oppgis i bit/sekund.
-
-=== Ogg (Theora+Vorbis) ===
-
-{{{
-ffmpeg2theora video.mkv -o out/out.ogv -V 1000
-}}}
-
-=== MP3 ===
-
-{{{
-ffmpeg -i FIL_INN -f mp3 -vn -acodec libmp3lame -ab BITHASTIGHET FIL_UT.mp3
-}}}
-
-Konstant bithastighet, oppgis i bit/sekund.
-
-=== Ogg (Vorbis) ===
-
-{{{
-ffmpeg -i audio.mp3 -f ogg -vn -acodec libvorbis -ab 128000 out/out.ogg
-}}}
-
-Konstant bithastighet, oppgis i bit/sekund.
-
-=== Ogg (FLAC)  ===
-
-{{{
-# ffmpeg sliter med å enkode i FLAC- sjekk ut alternative programmer
-ffmpeg -i FIL_INN -f ogg -vn -acodec flac FIL_UT.ogg
-}}}
+|| *Format* || *Kommando* || *Kommentar* ||
+|| MP4 (h.264+AAC) || `ffmpeg -i FIL_INN -f mp4 -vcodec libx264 -b BITRATE_BILDE -acodec libfaac -ab BITRATE_LYD -sameq FIL_UT.mp4` || ||
+|| Ogg (Theora+Vorbis) || `ffmpeg2theora video.mkv -o out/out.ogv -V 1000` || ||
+|| MP3 || `ffmpeg -i FIL_INN -f mp3 -vn -acodec libmp3lame -ab BITHASTIGHET FIL_UT.mp3` || ||
+|| Ogg (Vorbis) || `ffmpeg -i audio.mp3 -f ogg -vn -acodec libvorbis -ab 128000 out/out.ogg` || ||
+|| Ogg (FLAC) http://transkoding10.googlecode.com/files/icon-ball-yellow.png || `ffmpeg -i FIL_INN -f ogg -vn -acodec flac FIL_UT.ogg` || ffmpeg sliter med å enkode i FLAC- sjekk ut alternative programmer ||
 
 == Forklaring ==
 
