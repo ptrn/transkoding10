@@ -2,11 +2,9 @@
 
 For Ubuntu 9.04:
 {{{
-# legg til støtte for proprietære formater (AAC/MP3/MP4/h.264 m.f.)
+# legg til støtte for proprietære formater (AAC/MP3/MP4/h.264 m.f.),
+# og samtidig installer ffmpeg
 sudo apt-get install ffmpeg libavcodec-unstripped-52
-
-# installer ffmpeg
-sudo apt-get install ffmpeg
 }}}
 
 
@@ -31,14 +29,18 @@ _[http://ubuntuforums.org/showthread.php?t=1117283 kilde]_
 === MP3 ===
 
 {{{
-
+ffmpeg -i FIL_INN -f mp3 -acodec libmp3lame -ab BITHASTIGHET FIL_UT
 }}}
+
+Konstant bithastighet, oppgis i bit/sekund.
 
 === Ogg (Vorbis) ===
 
 {{{
-ffmpeg -i FIL_INN -acodec vorbis -aq BITHASTIGHET FIL_UT
+ffmpeg -i FIL_INN -acodec vorbis -ab BITHASTIGHET FIL_UT
 }}}
+
+Konstant bithastighet, oppgis i bit/sekund.
 
 === Ogg (FLAC)  ===
 
