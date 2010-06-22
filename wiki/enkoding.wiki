@@ -1,0 +1,34 @@
+== Enkoding ==
+
+|| *Innkapsling* || *Video* || *Lyd* || *Verktøy* ||
+|| MP4 || H.264 || AAC ||
+
+=== MP4 (h.264+AAC) ===
+
+{{{
+
+}}}
+
+=== Ogg (Theora+Vorbis) ===
+
+{{{
+
+}}}
+
+=== MP3 ===
+
+{{{
+
+}}}
+
+=== Ogg (Vorbis) ===
+
+{{{
+ffmpeg -i FIL_INN -acodec vorbis -aq BITHASTIGHET FIL_UT
+}}}
+
+=== Ogg (FLAC)  ===
+
+{{{
+
+}}}
