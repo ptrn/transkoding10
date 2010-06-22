@@ -9,9 +9,6 @@ sudo apt-get install ffmpeg libavcodec-unstripped-52
 
 _[http://ubuntuforums.org/showthread.php?t=1117283 kilde]_
 
-|| *Innkapsling* || *Video* || *Lyd* || *Verktøy* ||
-|| MP4 || H.264 || AAC ||
-
 === MP4 (h.264+AAC) ===
 
 {{{
@@ -35,7 +32,7 @@ Konstant bithastighet, oppgis i bit/sekund.
 === Ogg (Vorbis) ===
 
 {{{
-ffmpeg -i FIL_INN -f ogg -acodec vorbis -ab BITHASTIGHET FIL_UT.ogg
+ffmpeg -i audio.mp3 -f ogg -acodec libvorbis -ab 128000 out/out.ogg
 }}}
 
 Konstant bithastighet, oppgis i bit/sekund.
@@ -46,3 +43,14 @@ Konstant bithastighet, oppgis i bit/sekund.
 # ffmpeg sliter med å enkode i FLAC- sjekk ut alternative programmer
 ffmpeg -i FIL_INN -f ogg -acodec flac FIL_UT.ogg
 }}}
+
+== Mangler ==
+
+  * lyd
+    *frekvens
+    * kvalitet
+  * video
+    * aspektratio
+    * høyde
+    * bredde
+    * fps
