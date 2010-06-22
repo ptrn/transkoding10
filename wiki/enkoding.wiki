@@ -15,16 +15,18 @@ _[http://ubuntuforums.org/showthread.php?t=1117283 kilde]_
 ffmpeg -i FIL_INN -f mp4 -vcodec libx264 -b BITRATE_BILDE -acodec libfaac -ab BITRATE_LYD -sameq FIL_UT.mp4
 }}}
 
+Konstant bithastighet for lyd, variabel for video. Begge oppgis i bit/sekund.
+
 === Ogg (Theora+Vorbis) ===
 
 {{{
-
+ffmpeg2theora video.mkv -o out/out.ogv -V 1000
 }}}
 
 === MP3 ===
 
 {{{
-ffmpeg -i FIL_INN -f mp3 -acodec libmp3lame -ab BITHASTIGHET FIL_UT.mp3
+ffmpeg -i FIL_INN -f mp3 -vn -acodec libmp3lame -ab BITHASTIGHET FIL_UT.mp3
 }}}
 
 Konstant bithastighet, oppgis i bit/sekund.
@@ -32,7 +34,7 @@ Konstant bithastighet, oppgis i bit/sekund.
 === Ogg (Vorbis) ===
 
 {{{
-ffmpeg -i audio.mp3 -f ogg -acodec libvorbis -ab 128000 out/out.ogg
+ffmpeg -i audio.mp3 -f ogg -vn -acodec libvorbis -ab 128000 out/out.ogg
 }}}
 
 Konstant bithastighet, oppgis i bit/sekund.
@@ -41,10 +43,19 @@ Konstant bithastighet, oppgis i bit/sekund.
 
 {{{
 # ffmpeg sliter med å enkode i FLAC- sjekk ut alternative programmer
-ffmpeg -i FIL_INN -f ogg -acodec flac FIL_UT.ogg
+ffmpeg -i FIL_INN -f ogg -vn -acodec flac FIL_UT.ogg
 }}}
 
+== Forklaring ==
+
+|| *parameter* || *beskrivelse* ||
+|| -vn || uten video ||
+|| -r || bilder/sekund ||
+|| -ab || bithastighet for lyd, oppgis i bit/sekund ||
+|| -b || bithastighet for video, oppgis i bit/sekund ||
+
 == Mangler ==
+
 
   * lyd
     *frekvens
