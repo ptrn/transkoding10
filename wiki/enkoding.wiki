@@ -1,5 +1,18 @@
 == Enkoding ==
 
+For Ubuntu 9.04:
+{{{
+# legg til støtte for proprietære formater (AAC/MP3/MP4/h.264 m.f.)
+sudo apt-get install ffmpeg libavcodec-unstripped-52
+
+# installer ffmpeg
+sudo apt-get install ffmpeg
+}}}
+
+
+_[http://ubuntuforums.org/showthread.php?t=1117283 kilde]_
+
+
 || *Innkapsling* || *Video* || *Lyd* || *Verktøy* ||
 || MP4 || H.264 || AAC ||
 
@@ -30,5 +43,5 @@ ffmpeg -i FIL_INN -acodec vorbis -aq BITHASTIGHET FIL_UT
 === Ogg (FLAC)  ===
 
 {{{
-
+ffmpeg -i FIL_INN -acodec flac flac.ogg
 }}}
