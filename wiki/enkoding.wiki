@@ -20,7 +20,7 @@ _Les mer [http://ubuntuforums.org/showthread.php?t=1117283 her]_
 || Ogg _(Theora+Vorbis)_ || `ffmpeg2theora video.mkv -o out/out.ogv -V 1000` || ||
 || MP3 || `ffmpeg -i FIL_INN -f mp3 -vn -acodec libmp3lame -ab BITHASTIGHET FIL_UT.mp3` || ||
 || Ogg _(Vorbis)_ || `ffmpeg -i audio.mp3 -f ogg -vn -acodec libvorbis -ab 128000 out/out.ogg` || ||
-|| Ogg _(FLAC)_ http://transkoding10.googlecode.com/files/icon-ball-yellow.png || `ffmpeg -i FIL_INN -f ogg -vn -acodec flac FIL_UT.ogg` || ffmpeg sliter med å enkode i FLAC- sjekk ut alternative programmer ||
+|| Ogg _(FLAC)_ || `ffmpeg -y -i audio.mp3 -f wav tmp.wav`<br /> `flac tmp.wav -o out/out.flac -f`<br /> `rm tmp.wav` || må først konvertere til wav for å fjerne metadata, konverteres så til FLAC og sletter midlertidig fil ||
 
 === Forklaring ===
 
@@ -29,6 +29,7 @@ _Les mer [http://ubuntuforums.org/showthread.php?t=1117283 her]_
 || -r || bilder/sekund ||
 || -ab || bithastighet for lyd, oppgis i bit/sekund ||
 || -b || bithastighet for video, oppgis i bit/sekund ||
+|| -ar || samplingsfrekvens, gyldige verdier er:<br />´8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000´ ||
 
 == Mangler ==
 
