@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.6.11)  21 JUN 2010 14:41
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.6.11)  30 JUN 2010 13:23
 entering extended mode
 **kartlegging.tex
 ("C:\Folders\SVN\sommerjobb '10\rapporter\kartlegging\kartlegging.tex"
@@ -323,11 +323,11 @@ orer, sttter utelukkende
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
-<img/icon-ball-blue.png, id=47, 16.06pt x 16.06pt>
+<img/icon-ball-blue.png, id=51, 16.06pt x 16.06pt>
 File: img/icon-ball-blue.png Graphic file (type png)
 
 <use img/icon-ball-blue.png>
-<img/icon-ball-green.png, id=49, 16.06pt x 16.06pt>
+<img/icon-ball-green.png, id=53, 16.06pt x 16.06pt>
 File: img/icon-ball-green.png Graphic file (type png)
 
 <use img/icon-ball-green.png>
@@ -343,7 +343,7 @@ File: img/icon-ball-green.png Graphic file (type png)
 <use img/icon-ball-green.png>
 File: img/icon-ball-green.png Graphic file (type png)
  <use img/icon-ball-green.png>
-<img/icon-ball-red.png, id=50, 16.06pt x 16.06pt>
+<img/icon-ball-red.png, id=54, 16.06pt x 16.06pt>
 File: img/icon-ball-red.png Graphic file (type png)
  <use img/icon-ball-red.png>
 File: img/icon-ball-green.png Graphic file (type png)
@@ -394,7 +394,7 @@ File: img/icon-ball-blue.png Graphic file (type png)
 File: img/icon-ball-red.png Graphic file (type png)
 
 <use img/icon-ball-red.png>
-<img/icon-ball-yellow.png, id=51, 16.06pt x 16.06pt>
+<img/icon-ball-yellow.png, id=55, 16.06pt x 16.06pt>
 File: img/icon-ball-yellow.png Graphic file (type png)
 
 <use img/icon-ball-yellow.png>
@@ -432,45 +432,46 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Overfull \hbox (29.50003pt too wide) in paragraph at lines 86--87
+Overfull \hbox (29.50003pt too wide) in paragraph at lines 98--99
 [][]$\OT1/pcr/m/n/10 http : / / hacks . mozilla . org / 2010 / 05 / firefox-[]y
 outube-[]and-[]webm/$[] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  ("C:\Folders\SVN\sommerjobb '10\rapporter\kartlegging\kartlegging.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package rerunfilecheck Info: File `kartlegging.out' has not changed.
-(rerunfilecheck)             Checksum: A5F63AE2457DD7B7121532BB1D89CAE1;568.
+(rerunfilecheck)             Checksum: C363BDD00502BC14C3D2646484EAB828;679.
  ) 
 Here is how much of TeX's memory you used:
- 5236 strings out of 495285
- 81690 string characters out of 3179881
+ 5240 strings out of 495285
+ 81756 string characters out of 3179881
  175181 words of memory out of 3000000
- 8301 multiletter control sequences out of 15000+200000
+ 8302 multiletter control sequences out of 15000+200000
  18514 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 31i,12n,28p,682b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,12n,28p,682b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.8/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.8/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on kartlegging.pdf (2 pages, 78760 bytes).
+Output written on kartlegging.pdf (3 pages, 83084 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
