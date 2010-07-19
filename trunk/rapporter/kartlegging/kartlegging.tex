@@ -4,7 +4,7 @@
 \usepackage[latin1]{inputenc}
 \usepackage{hyperref}
 \usepackage{fmtcount}
-\usepackage{verbatim}
+%\usepackage{verbatim}
 
 \include{functions}
 
@@ -29,14 +29,44 @@ I tillegg til utbredelsen av Ogg- og MP4-innkapslingsformatet, er det kommet et 
 %
 \begin{tabular}{| c | l | l | l | l | l | l | l |}
   \hline
+
   \textbf{Format} & \textbf{IE} & \textbf{Firefox} & \textbf{Safari} & \textbf{Chrome} & \textbf{Opera} & \textbf{iPhone} & \textbf{Android} \\ \hline
-  HTML5 video & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} \\ \hline
 
-  Ogg\scriptsize{(Theora+Vorbis)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v10.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \\ \hline
+  HTML5 video & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} \\ \hline
 
-  MP4\scriptsize{(h.262+AAC)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v2.0+} \\ \hline
+  Ogg\scriptsize{(Theora+Vorbis)}  & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v10.5+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \\ \hline
 
-  WebM\scriptsize{(VP8+Vorbis)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} \footmark & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v4.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \footmark & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v6.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v10.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-yellow.png}} \\ \hline
+  MP4\scriptsize{(h.262+AAC)}  & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v2.0+} \\ \hline
+
+  WebM\scriptsize{(VP8+Vorbis)}  & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} \footmark & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v4.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \footmark & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v6.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v10.0+} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-yellow.png}} \\ \hline
 \end{tabular}
 
 \foottext{brukeren må installere en plugin}
@@ -81,27 +111,147 @@ Det finnes per i dag ingen definerte standarder for underteksting av video, men 
 
 Dette er et standardiseringsprosjekt i regi av W3C, for teksting av video så vel som lyd. Tekst bindes opp til tid, og man har kontroll over utseende så vel som plassering.
 
-Prosjektet er fullført, og anbefalingen som gis er endelig. Mer informasjon finnes her: \url{http://www.w3.org/AudioVideo/TT/}
+Prosjektet er fullført, og anbefalingen som gis er endelig. Mer
+informasjon finnes på deres nettsider\footnoter{\url{http://www.w3.org/AudioVideo/TT/}}.
 
 \subsubsection{Mozilla Drumbeat Universal Subtitles}
 
-Mozilla har initiert et prosjekt for skaping, deling og visning av undertekster i video. For visning ønsker de å skape en åpent spesifisert protokoll, som skal kunne brukes i nettlesere så vel som frittstående applikasjoner.
+Mozilla tar del i et prosjekt for skaping, deling og visning av undertekster i video. Det finnes for øyeblikket en tidlig prøveutgave av webverktøyet for å lage og vise undertekster, og baserer seg på HTML5 og JavaScript\footnoter{\url{http://universalsubtitles.org/}}. For visning ønsker de å skape en åpent spesifisert protokoll, som skal kunne brukes i nettlesere så vel som frittstående applikasjoner.
 
-Det er et ambisiøst prosjekt, men er
+Muligheten for søking og visning i frittstående applikasjoner er under utvikling, uten en prøveutgave tilgjengelig. Denne funksjonaliteten er ikke beskrevet i detalj, så det er vanskelig å si hva en kan forvente i fremtiden.
 
-Mer informasjon finnes her: \url{http://www.drumbeat.org/project/universal-subtitles}
+Mer informasjon finnes på deres nettsider\footnoter{http://www.drumbeat.org/project/universal-subtitles}.
 
 \subsection{Avspilling i 3.parts program}
 
 \section{Biblioteker}
 
+\subsection{TTC}
+
+Tista Transcode(TTC) er løsningen som brukes i dag for transkoding av multimedia. Utgangsformatene er per i dag OGG(Theora+Vorbis) og MP4(h.264+AAC). For transkoding av OGG benyttes FFmpeg2theora\footnoter{\url{http://v2v.cc/~j/ffmpeg2theora/}}, og for MP4 benyttes HandBreak\footnoter{\url{http://handbrake.fr/}}.
+
+For å inkorporere støtte for enkoding til WebM kan man benytte seg av siste utgave av FFmpeg\footnoter{0.6}, som har innebygd støtte for dette.
+
+\section{Verktøy}
+
+\subsection{VITAL}
+
+VITAL er et verktøy for å gjøre annoteringer til lyd og video, og visning og samling av disse. Man har også mulighet til å laste opp egenprodusert materiale, og annotere på dette.
+
+Bakgrunnen for VITAL er å skape et verktøy for annotering av video, og for å skape multimediahistorier ved bruk av tekst og video. Verktøyet er tiltenkt for bruk mellom instruktør og student, for å kunne utføre og evaluere oppgaver. Det er et fullstendig nettbasert verktøy som kan nås og brukes av nettlesere med Adobe Flash installert.
+
+Ved åpning av verktøyet får man en liste over oppgaver, med en beskrivelse og multimedia tilhørende hver enkelt oppgave. En oppgave kan være å gjøre en skriftlig analyse av en samling videoklipp.
+Under avspilling har brukeren mulighet til å velge start og slutt på en sekvens og stoppe klippet. Brukeren kan da gjøre en annotasjon som blir knyttet opp til den gitte sekvensen.
+Ved sammensetning av analysen får man en side bestående av tre deler: oppgaveteksten, et tekstområde hvor brukeren kan skrive, og listen over videoklipp man har gjort annoteringer i. Ved sammensetning av analysen kan man putte klipp direkte inn i teksten, som peker direkte til sekvensen og annotasjonen som brukeren har gjort. 
+Ved å bruke dette verktøyet har man mulighet til å gjøre direkte referanser til spesifikke deler av én eller flere vidoeklipp. Dermed slipper man å beskrive klippene med tekst, og man kan enklere forstå sammenhengen.
+
+Prosjektet er i regi av Columbia University, og er for øyeblikket i prøvestadiet i noen utdanningsintitusjoner rundtom i USA.
+
+Les mer på nettsidene deres\footnoter{\url{http://ccnmtl.columbia.edu/our_services/vital/introduction_to_vital.html}}.
+
 \section{Publiseringsløsninger}
 
-\section{Øvrig}
+%Erfaringer er også hentet ut av en tidligere rapport, utredet av Andreas Bergstrøm høsten 2009\footnoter{\url{https://ow.feide.no/mms} (krever pålogging)}.
+
+\subsection{Kaltura}
+
+
+
+\subsection{Mediamosa}
+
+MediaMosa er et Drupal-basert CMS-system, med mulighet for transkoding og avspilling av video. Systemet benytter seg av blant annet FFmpeg som transkodingsapplikasjon.
+
+Har ikke funnet en fungerende demo av siden.
+
+\section{Videoavspillere}
+
+\subsection{MediaFront}
+
+Åpen videoavspiller. Spiller av HTML5 video, med tilbakefall til Flash. Har også mulighet for integrasjon av Youtube og Vimeo direkte i avspilleren, og avspilleren ser lik ut uansett hvilket format man spiller av. Mulighet for å ransjere 
+
+Avspilleren er bygd opp rundt jQuery og jQuery UI, som enkelt muliggjør tilpassing av utseendet på spilleren.
+
+undertekst? nei: http://www.mediafront.org/subtitles
+\subsection{Kaltura}
+HTML5+Flash, åpent,
+\subsection{SublimeVideo}
+http://jilion.com/sublime/video
+HTML5+Flash
+\subsection{FlareVideo}
+http://flarevideo.com/
+HTML5+Flash
+jQuery+jQuery UI
+\subsection{}
+http://www.projekktor.com/
+\subsection{}
+
+\begin{tabular}{| c | l | l | l | l | l | l | l |}
+
+  \hline
+
+  \textbf{Navn} & 
+  \textbf{Demo} & 
+  \textbf{HTML5} & 
+  \textbf{Flash} & 
+  \textbf{Underteksting} & 
+  \textbf{Lisens} & 
+  \textbf{Åpen} & 
+  \textbf{Annet} \\ \hline
+
+  Kaltura &
+  nett & %  \url{http://www.html5video.org/} &
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} &
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} &
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} &
+  ukjent &
+  ukjent &
+  ads \\ \hline
+
+  MediaFront & 
+  nett & %\url{http://www.mediafront.org/} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  ukjent &
+  ukjent & 
+  asd \\ \hline
+
+  Video For Everybody &
+  nett & %\url{http://camendesign.com/code/video_for_everybody/test.html} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+   & 
+  ukjent & 
+  Benytter seg av JW Player som Flash-avspiller \\ \hline
+
+  Video JS &
+  nett & %\url{http://videojs.com/} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+   & 
+  ukjent & 
+  Utseendet på nettsiden ligger fullstendig mot venstre vist i IE \\ \hline
+
+  Moovie &
+  nett & %\url{http://colinaarts.com/code/moovie/} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & 
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & 
+   & 
+  ukjent & 
+   \\ \hline
+
+  
+
+http://videojs.com/
+
+\end{tabular}
 
 \section*{Sjekk ut}
 \begin{itemize}
-  \item \url{http://hacks.mozilla.org/2010/05/firefox-youtube-and-webm/}
+\item \url{http://hacks.mozilla.org/2010/05/firefox-youtube-and-webm/}
 \end{itemize}
 
 \section*{Kilder}

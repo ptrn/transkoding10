@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.6.11)  30 JUN 2010 13:23
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.6.11)  19 JUL 2010 13:38
 entering extended mode
 **kartlegging.tex
 ("C:\Folders\SVN\sommerjobb '10\rapporter\kartlegging\kartlegging.tex"
@@ -231,11 +231,6 @@ No configuration file fmtcount.cfg found.
 \@tmpstrctr=\count101
 \@DT@loopN=\count102
 \@DT@X=\count103
-) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\verbatim.sty"
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks19
-\verbatim@line=\toks20
-\verbatim@in@stream=\read1
 )
 \@input{functions.aux}
 ("C:\Folders\SVN\sommerjobb '10\rapporter\kartlegging\functions.tex"
@@ -272,11 +267,11 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 \scratchbox=\box26
 \nofMPsegments=\count106
 \nofMParguments=\count107
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks19
 \MPscratchCnt=\count108
 \MPscratchDim=\dimen110
 \MPnumerator=\count109
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks20
 )
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring OFF on input line 15.
@@ -322,12 +317,12 @@ orer, sttter utelukkende
  []
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
-<img/icon-ball-blue.png, id=51, 16.06pt x 16.06pt>
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 33.
+<img/icon-ball-blue.png, id=95, 16.06pt x 16.06pt>
 File: img/icon-ball-blue.png Graphic file (type png)
 
 <use img/icon-ball-blue.png>
-<img/icon-ball-green.png, id=53, 16.06pt x 16.06pt>
+<img/icon-ball-green.png, id=97, 16.06pt x 16.06pt>
 File: img/icon-ball-green.png Graphic file (type png)
 
 <use img/icon-ball-green.png>
@@ -343,7 +338,7 @@ File: img/icon-ball-green.png Graphic file (type png)
 <use img/icon-ball-green.png>
 File: img/icon-ball-green.png Graphic file (type png)
  <use img/icon-ball-green.png>
-<img/icon-ball-red.png, id=54, 16.06pt x 16.06pt>
+<img/icon-ball-red.png, id=98, 16.06pt x 16.06pt>
 File: img/icon-ball-red.png Graphic file (type png)
  <use img/icon-ball-red.png>
 File: img/icon-ball-green.png Graphic file (type png)
@@ -394,16 +389,16 @@ File: img/icon-ball-blue.png Graphic file (type png)
 File: img/icon-ball-red.png Graphic file (type png)
 
 <use img/icon-ball-red.png>
-<img/icon-ball-yellow.png, id=55, 16.06pt x 16.06pt>
+<img/icon-ball-yellow.png, id=99, 16.06pt x 16.06pt>
 File: img/icon-ball-yellow.png Graphic file (type png)
 
 <use img/icon-ball-yellow.png>
-Underfull \hbox (badness 10000) in paragraph at lines 28--41
+Underfull \hbox (badness 10000) in paragraph at lines 28--71
 
  []
 
 
-Overfull \hbox (50.65771pt too wide) in paragraph at lines 28--41
+Overfull \hbox (50.65771pt too wide) in paragraph at lines 28--71
 [] 
  []
 
@@ -424,54 +419,119 @@ File: img/icon-ball-red.png Graphic file (type png)
 10/rapporter/kartlegging/img/icon-ball-green.png> <C:/Folders/SVN/sommerjobb '1
 0/rapporter/kartlegging/img/icon-ball-red.png> <C:/Folders/SVN/sommerjobb '10/r
 apporter/kartlegging/img/icon-ball-yellow.png>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Overfull \hbox (29.50003pt too wide) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Overfull \hbox (18.84526pt too wide) in paragraph at lines 121--122
+[]\OT1/ppl/m/n/10 Muligheten for sking og vis-ning i frittst[]aende ap-p-likas
+joner er un-der utvikling,
+ []
+
+[2]
+Overfull \hbox (14.75648pt too wide) in paragraph at lines 131--132
+\OT1/ppl/m/n/10 me-dia. Ut-gangs-for-matene er per i dag OGG(Theora+Vorbis) og 
+MP4(h.264+AAC).
+ []
+
+
+Overfull \hbox (4.96545pt too wide) in paragraph at lines 148--149
+[]\OT1/ppl/m/n/10 Prosjektet er i regi av Columbia Uni-ver-sity, og er for yeb
+-likket i prvestadiet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[][][][]$\OT1/pcr/m/n/8 http : / / ccnmtl . columbia . edu / our _ services / v
+ital / introduction _ to _ vital .
+ []
+
+[3]
+File: img/icon-ball-green.png Graphic file (type png)
+ <use img/icon-ball-green.png>
+File: img/icon-ball-green.png Graphic file (type png)
+ <use img/icon-ball-green.png>
+File: img/icon-ball-red.png Graphic file (type png)
+
+<use img/icon-ball-red.png>
+File: img/icon-ball-green.png Graphic file (type png)
+ <use img/icon-ball-green.png>
+File: img/icon-ball-green.png Graphic file (type png)
+
+<use img/icon-ball-green.png>
+File: img/icon-ball-red.png Graphic file (type png)
+ <use img/icon-ball-red.png>
+File: img/icon-ball-green.png Graphic file (type png)
+
+<use img/icon-ball-green.png>
+File: img/icon-ball-green.png Graphic file (type png)
+ <use img/icon-ball-green.png>
+File: img/icon-ball-red.png Graphic file (type png)
+
+<use img/icon-ball-red.png>
+File: img/icon-ball-green.png Graphic file (type png)
+ <use img/icon-ball-green.png>
+File: img/icon-ball-green.png Graphic file (type png)
+
+<use img/icon-ball-green.png>
+File: img/icon-ball-red.png Graphic file (type png)
+ <use img/icon-ball-red.png>
+File: img/icon-ball-green.png Graphic file (type png)
+
+<use img/icon-ball-green.png>
+File: img/icon-ball-red.png Graphic file (type png)
+ <use img/icon-ball-red.png>
+File: img/icon-ball-green.png Graphic file (type png)
+
+<use img/icon-ball-green.png>
+Overfull \hbox (328.50356pt too wide) in paragraph at lines 188--251
+[] 
+ []
+
+[4]
+Overfull \hbox (29.50003pt too wide) in paragraph at lines 254--255
 [][]$\OT1/pcr/m/n/10 http : / / hacks . mozilla . org / 2010 / 05 / firefox-[]y
 outube-[]and-[]webm/$[] 
  []
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  ("C:\Folders\SVN\sommerjobb '10\rapporter\kartlegging\kartlegging.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
 Package rerunfilecheck Info: File `kartlegging.out' has not changed.
-(rerunfilecheck)             Checksum: C363BDD00502BC14C3D2646484EAB828;679.
+(rerunfilecheck)             Checksum: 6F5E65438DA83CEE6B379FCEE08CEEBB;1306.
  ) 
 Here is how much of TeX's memory you used:
- 5240 strings out of 495285
- 81756 string characters out of 3179881
- 175181 words of memory out of 3000000
- 8302 multiletter control sequences out of 15000+200000
+ 5244 strings out of 495285
+ 81639 string characters out of 3179881
+ 174550 words of memory out of 3000000
+ 8289 multiletter control sequences out of 15000+200000
  18514 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 31i,12n,28p,682b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,12n,28p,532b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.8/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.8/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on kartlegging.pdf (3 pages, 83084 bytes).
+Output written on kartlegging.pdf (5 pages, 99717 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
