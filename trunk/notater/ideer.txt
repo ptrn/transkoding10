@@ -1,0 +1,5 @@
+- skrive undertekstingbibliotek
+  - hvordan hente ut data om tid fra Flash-video?
+  - visning i fullskjerm
+
+

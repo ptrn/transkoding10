@@ -1,0 +1,57 @@
+\subsection{HTML5}
+
+Firefox lanserte 30. juni den første nettleseren med støtte for HTML5 video-taggen\footnoter{\url{http://www.engadget.com/2009/06/30/firefox-3-5-arrives/}}. Siden den tid har de fleste største nettlesere kommet med en generell støtte, med unntak av den størte, Internet Explorer, som vil gi støtte med neste utgivelse, versjon 9. Noen lanseringsdato er foreløpig ikke fastsatt.
+
+Det er vedvarende ingen enighet om hva slags format som skal brukes på selve transportstrømme, hverken innkapsling, eller formater innad i innkapslingen. Safari og den kommende utgaven av Internet Explorer, støtter utelukkende innkapslingsformatet MP4, med h.264 video- og AAC som lydkodek. Firefox og Opera støtter kun Ogg som innkapslingsformat, med Theora som video- og Vorbis som lydkodek. Chrome på den andre siden støtter begge formater.
+
+I tillegg til utbredelsen av Ogg- og MP4-innkapslingsformatet, er det kommet et tredje alternativ til de to eksistende formatene. Formatet er utviklet av Google og går under navnet WebM\footnoter{\url{http://www.webmproject.org/}}. Formatet baserer seg på VP8 som video- og Vorbis som lydkodek, hvor disse kodekene er faste. WebM er tilgjengeliggjort under en åpen lisens som tillater fritt kommerielt bruk. En mer grundig gjennomgang av WebM gjøres i et underkapittel funnet lenger ned.\\\\
+%
+\begin{tabular}{| c | l | l | l | l | l | l | l |}
+  \hline
+  \textbf{Format} & \textbf{IE} & \textbf{Firefox} & \textbf{Safari} & \textbf{Chrome} & \textbf{Opera} & \textbf{iPhone} & \textbf{Android} \\ \hline
+  HTML5 video & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} \\ \hline
+
+  Ogg\scriptsize{(Theora+Vorbis)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v10.5+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \\ \hline
+
+  MP4\scriptsize{(h.262+AAC)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v5.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v3.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}}\scriptsize{v2.0+} \\ \hline
+
+  WebM\scriptsize{(VP8+Vorbis)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} \footmark & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v4.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} \footmark & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v6.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v10.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-yellow.png}} \\ \hline
+\end{tabular}
+
+\foottext{brukeren må installere en plugin}
+\foottext{brukeren må installere en 3.parts plugin for QuickTime}
+
+%
+\begin{tabular}{ c l }
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-green.png}} & støttet i siste utgivelse \\
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}} & støtte kommer i gitt fremtidig utgivelse \\
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-yellow.png}} & støtte kommer i ubestemt fremtidig utgivelse \\
+  \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & ingen støtte, hverken nå eller i kjent fremtid \\
+\end{tabular}
+
+\subsection{WebM}
+
+19. mai, 2010 lanserte Google det åpne innkapslingsformatet WebM, sammen med videoformatet VP8. Innkapslingen bruker Vorbis for lyd og VP8 for video, dermed er alle ledd basert på åpne standarder.
+
+Flere fordeler ligger til grunne for at dette formatet kan bli svært utbredt:
+
+\begin{itemize}
+  \item formatet er åpent
+  \item formatene brukt for video- og lydstrømmer er strengt definerte
+  \item mange store aktører stiller seg bak formatet
+\end{itemize}
+%
+Støtte er allerede inkorporert i utviklerutgaver av flere store nettlesere, og flere er i vente.\\\\
+%
+\begin{tabular}{| c | l | l | l | l | l | l | l |}
+  \hline
+  \textbf{Format} & \textbf{IE} & \textbf{Firefox} & \textbf{Safari} & \textbf{Chrome} & \textbf{Opera} & \textbf{iPhone} & \textbf{Android} \\ \hline
+  WebM\scriptsize{(VP8+Vorbis)}  & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v9.0+} \footmark & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v4.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v6.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-blue.png}}\scriptsize{v10.0+} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-red.png}} & \parbox[c]{1em}{\includegraphics[width=3mm]{img/icon-ball-yellow.png}} \\ \hline
+\end{tabular}
+
+\foottext{brukeren må installere en plugin}
+\foottext{brukeren må installere en 3.parts plugin for QuickTime}
+
+\subsection{h.264 vs. Ogg vs. WebM}
+
+\subsection{Underteksting}

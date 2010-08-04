@@ -1,0 +1,4 @@
+Hva skal gjøres?
+
+- flere presets?
+- manuell tilpassing av bitrate/oppløsning?
