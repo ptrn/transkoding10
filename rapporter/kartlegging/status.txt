@@ -1,0 +1,17 @@
+# undertekster
+  # nåværende
+  # fremtidige
+
+# spoling/ media fragments
+
+- synkronisering av multimediespor og tekst/grafikk
+
+# TTC
+  # beskriv systemet ytterligere
+
+# CMS-systemer
+  # overblikk (med nok kontekst)
+
+====
+
+- avspillere
