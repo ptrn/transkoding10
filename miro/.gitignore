@@ -1,0 +1,13 @@
+MSWindows/Windows/bin/
+MSWindows/Windows/obj/
+MSWindows/WindowsSetup/Debug/
+MSWindows/WindowsSetup/Release/
+MSWindows/FFMPEGWrapper.suo
+Mac/build/
+*.pyc
+*.pfx
+pcfpfxpassword.yaml
+Mac/DMG/*.dmg
+
+/Mac/Miro Video Converter.xcodeproj/cworth.pbxuser
+/Mac/Miro Video Converter.xcodeproj/cworth.perspectivev3
