@@ -10,4 +10,4 @@
 
 I tillegg er det også definert formater for koding av bilder, men det er ikke relevant i dette prosjektet.
 
-Les mer på [http://standard.difi.no/forvaltningsstandarder/anvendelsesomraade/publisering-av-multimediainnhold-paa-offentlige-nettsider Difi's egne nettsider].
+Les mer på [http://standard.difi.no/forvaltningsstandarder/anvendelsesomraade/publisering-av-multimediainnhold-paa-offentlige-nettsider Difi's egne nettsider]. Se også [DifiEnkoding kommandoer for enkoding] av de nevnte formatene ved bruk av FFmpeg og ffmpeg2theora.
