@@ -2,12 +2,12 @@
 
 Konvertering fra MP4 (h.264+AAC) til MP3 ikke mulig, FFmpeg feiler.
 
-*Feilmelding*
+*feilmelding*
 {{{
 Error while opening codec for output stream #0.0 - maybe incorrect parameters such as bit_rate, rate, width or height
 }}}
 
-*Parametere*
+*parametere*
 {{{
 ffmpeg -i <FIL INN> -f mp3 -y <FIL UT>
 }}}
