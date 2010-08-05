@@ -1,0 +1,8 @@
+= ønskelige valgmuligher i Miro =
+
+Parametere som er ønskelig å kunne endre manuelt.
+
+Eksempelvis:
+  * aspektratio
+  * høyde/bredde
+  * kvalitet på video og lyd (1-10)
