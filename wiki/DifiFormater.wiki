@@ -3,6 +3,7 @@
 == Lyd ==
   * Vorbis 1 (Vorbis innkapslet i Ogg)
   * MP3 (elementærstrøm)
+  * FLAC (hvor det er krav for tapsfri lyd)
 
 == Video ==
   * Theora 1 (video kodet i Theora, lyd i Vorbis, innkapslet i Ogg)
