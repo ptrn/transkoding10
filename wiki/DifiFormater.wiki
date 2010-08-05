@@ -1,0 +1,13 @@
+= Difi's definerte formater =
+
+== Lyd ==
+  * Vorbis 1 (Vorbis innkapslet i Ogg)
+  * MP3 (elementærstrøm)
+
+== Video ==
+  * Theora 1 (video kodet i Theora, lyd i Vorbis, innkapslet i Ogg)
+  * MP4 (video kodet i h.264, lyd i AAC, innkapslet i MP4)
+
+I tillegg er det også definert formater for koding av bilder, men det er ikke relevant i dette prosjektet.
+
+Les mer på [http://standard.difi.no/forvaltningsstandarder/anvendelsesomraade/publisering-av-multimediainnhold-paa-offentlige-nettsider Difi's egne nettsider].
