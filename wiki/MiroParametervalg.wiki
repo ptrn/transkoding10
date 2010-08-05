@@ -1,6 +1,6 @@
-= ønskelige valgmuligher i Miro =
+= manuelle parametere i Miro =
 
-Parametere som er ønskelig å kunne endre manuelt.
+Parametere som er ønskelig å kunne sette manuelt.
 
 Eksempelvis:
   * aspektratio
