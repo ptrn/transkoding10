@@ -1,5 +1,3 @@
-= Enkoding =
-
 == Krav til programvare ==
 
 For Ubuntu 9.04:
