@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Temp\8planes-mirovideoconverter-dacbbd1\MSWindows\Windows\obj\Debug\
+C:\Folders\SVN\transkoding10\trunk\miro\MSWindows\Windows\obj\Debug\
 Mirosubs.Converter.Windows
 none
 false
 DEBUG;TRACE
-C:\Temp\8planes-mirovideoconverter-dacbbd1\MSWindows\Windows\App.xaml
+C:\Folders\SVN\transkoding10\trunk\miro\MSWindows\Windows\App.xaml
 71156450000
 5-996144157
 351662970680
-14-1968454539
+14-644335974
 AboutHelp.xaml;Converting.xaml;FFMPEGOutputViewer.xaml;FileSelect.xaml;LinkButton.xaml;MainWindow.xaml;UpdateNotification.xaml;
 

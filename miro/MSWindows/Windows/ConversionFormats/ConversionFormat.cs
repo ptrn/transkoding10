@@ -27,7 +27,6 @@ using Mirosubs.Converter.Windows.Process;
 namespace Mirosubs.Converter.Windows.ConversionFormats {
     abstract class ConversionFormat {
         public static readonly ConversionFormat[] All = new ConversionFormat[] { 
-            MP3Format.MP3,
             /*
             AndroidVideoFormat.G1, 
             PSPVideoFormat.PSP, 
@@ -49,7 +48,8 @@ namespace Mirosubs.Converter.Windows.ConversionFormats {
              */
             DifiTheora.Theora,
             DifiMP4.MP4,
-            DifiMP3.MP3
+            DifiMP3.MP3,
+            DifiVorbis.Vorbis
         };
 
         public static ConversionFormat FindByDisplayName(string displayName) {

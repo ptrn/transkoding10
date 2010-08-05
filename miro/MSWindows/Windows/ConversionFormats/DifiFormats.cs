@@ -25,8 +25,12 @@ using System.Text;
 using Mirosubs.Converter.Windows.Process;
 using System.IO;
 
+
 namespace Mirosubs.Converter.Windows.ConversionFormats
 {
+    /**
+     * Ogg (Theora+Vorbis)
+     */
     class DifiTheora : ConversionFormat
     {
         public readonly static DifiTheora Theora =
@@ -77,10 +81,10 @@ namespace Mirosubs.Converter.Windows.ConversionFormats
             }
         }
     }
-}
 
-namespace Mirosubs.Converter.Windows.ConversionFormats
-{
+    /**
+     * MP4 (h.264+ACC)
+     */
     class DifiMP4 : ConversionFormat
     {
         public readonly static ConversionFormat MP4 = new DifiMP4();
@@ -102,14 +106,17 @@ namespace Mirosubs.Converter.Windows.ConversionFormats
         {
             get
             {
-                return 2;
+                return 1;
             }
         }
     }
-}
 
-namespace Mirosubs.Converter.Windows.ConversionFormats
-{
+    /**
+     * MP3
+     * Problemer:
+     *  konvertering fra MP4(h.264+AAC) gir feilmeldiger, se mer her:
+     *  http://bit.ly/dvQx9N 
+     */
     class DifiMP3 : ConversionFormat
     {
         public readonly static ConversionFormat MP3 =
@@ -121,12 +128,61 @@ namespace Mirosubs.Converter.Windows.ConversionFormats
         }
         public override string GetArguments(string inputFileName, string outputFileName)
         {
-            return string.Format("-i \"{0}\" -f mp3 -y -vn -ac 2 \"{1}\"",
+            return string.Format("-i \"{0}\" -f mp3 -y \"{1}\"",
                 inputFileName, outputFileName);
         }
         public override IVideoConverter MakeConverter(string fileName)
         {
             return new FFMPEGVideoConverter(fileName, this);
+        }
+        public override int Order
+        {
+            get
+            {
+                return 2;
+            }
+        }
+    }
+
+    /**
+     * Ogg (Vorbis)
+     */
+    class DifiVorbis : ConversionFormat
+    {
+        public readonly static DifiVorbis Vorbis =
+            new DifiVorbis("Vorbis", "vorbis");
+        private DifiVorbis(string displayName, string filePart)
+            : base(displayName, filePart, "ogg", VideoFormatGroup.Difi)
+        {
+        }
+        public override string GetArguments(string inputFileName, string outputFileName)
+        {
+            VideoParameters parms =
+                VideoParameterOracle.GetParameters(inputFileName);
+            if (parms == null)
+                return GetSimpleArguments(inputFileName, outputFileName);
+            else
+            {
+                StringBuilder paramsBuilder = new StringBuilder();
+                StringWriter paramsWriter = new StringWriter(paramsBuilder);
+                paramsWriter.Write("--audioquality 6");
+                paramsWriter.Write("--novideo");
+
+                paramsWriter.Close();
+                return string.Format(
+                    "\"{0}\" -o \"{1}\" {2} --frontend",
+                        inputFileName, outputFileName, paramsBuilder.ToString());
+            }
+        }
+        public string GetSimpleArguments(string inputFileName, string outputFileName)
+        {
+            return string.Format(
+                   "\"{0}\" -o \"{1}\" --novideo --audioquality 6 --frontend",
+                   inputFileName, outputFileName);
+        }
+        public override IVideoConverter MakeConverter(string fileName)
+        {
+            return new F2TVideoConverter(fileName);
         }
         public override int Order
         {
