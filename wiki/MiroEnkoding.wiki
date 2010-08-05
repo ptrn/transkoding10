@@ -3,6 +3,8 @@
 
 == Konvertering fra MP4 (h.264+AAC) til MP3 ikke mulig, FFmpeg feiler ==
 
+Sporing: [http://code.google.com/p/transkoding10/issues/detail?id=10 #10]
+
 *feilmelding*
 {{{
 Error while opening codec for output stream #0.0 - maybe incorrect parameters such as bit_rate, rate, width or height
@@ -19,11 +21,13 @@ Har prøvd å sette bitrate og samplingfrekvens manuelt, uten at det forander no
 
 == Konvertering til Ogg Vorbis ikke mulig ==
 
+Sporing: [http://code.google.com/p/transkoding10/issues/detail?id=9 #9]
+
 Det ser ut til at parameterene er hardkodet inn i klassen som definerer den nødvendige applikasjonen, ffmpeg2theora. Det er ikke støtte for koding til Vorbis i FFmpeg.
 
 === stygg referanse ===
 
-*F2TVideoConverterProcess*, linje 46-53
+*F2TVideoConverterProcess.cs*, linje 46-53
 
 {{{
     Path.ChangeExtension(fileName, 
