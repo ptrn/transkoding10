@@ -149,46 +149,57 @@ namespace Mirosubs.Converter.Windows.ConversionFormats
      */
     class DifiVorbis : ConversionFormat
     {
-        public readonly static DifiVorbis Vorbis =
-            new DifiVorbis("Vorbis", "vorbis");
-        private DifiVorbis(string displayName, string filePart)
-            : base(displayName, filePart, "ogg", VideoFormatGroup.Difi)
+        public readonly static ConversionFormat Vorbis =
+            new DifiVorbis();
+
+        private DifiVorbis()
+            : base("Vorbis (Audio Only)", "audioonly", "ogg", VideoFormatGroup.Difi)
         {
         }
         public override string GetArguments(string inputFileName, string outputFileName)
         {
-            VideoParameters parms =
-                VideoParameterOracle.GetParameters(inputFileName);
-            if (parms == null)
-                return GetSimpleArguments(inputFileName, outputFileName);
-            else
-            {
-                StringBuilder paramsBuilder = new StringBuilder();
-                StringWriter paramsWriter = new StringWriter(paramsBuilder);
-                paramsWriter.Write("--audioquality 6");
-                paramsWriter.Write("--novideo");
-
-                paramsWriter.Close();
-                return string.Format(
-                    "\"{0}\" -o \"{1}\" {2} --frontend",
-                        inputFileName, outputFileName, paramsBuilder.ToString());
-            }
-        }
-        public string GetSimpleArguments(string inputFileName, string outputFileName)
-        {
-            return string.Format(
-                   "\"{0}\" -o \"{1}\" --novideo --audioquality 6 --frontend",
-                   inputFileName, outputFileName);
+            return string.Format("-i \"{0}\" -y -vn -f ogg -acodec libvorbis -ab 128000 \"{1}\"",
+                inputFileName, outputFileName);
         }
         public override IVideoConverter MakeConverter(string fileName)
         {
-            return new F2TVideoConverter(fileName);
+            return new FFMPEGVideoConverter(fileName, this);
         }
         public override int Order
         {
             get
             {
-                return 3;
+                return 2;
+            }
+        }
+    }
+
+    /**
+     * Flac
+     */
+    class DifiFLAC : ConversionFormat
+    {
+        public readonly static ConversionFormat FLAC =
+            new DifiFLAC();
+
+        private DifiFLAC()
+            : base("FLAC (Audio Only)", "audioonly", "flac", VideoFormatGroup.Difi)
+        {
+        }
+        public override string GetArguments(string inputFileName, string outputFileName)
+        {
+            return string.Format("-i \"{0}\" -y -vn -acodec flac \"{1}\"",
+                inputFileName, outputFileName);
+        }
+        public override IVideoConverter MakeConverter(string fileName)
+        {
+            return new FFMPEGVideoConverter(fileName, this);
+        }
+        public override int Order
+        {
+            get
+            {
+                return 2;
             }
         }
     }
