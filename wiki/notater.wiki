@@ -1,4 +1,0 @@
-#labels handbreak
-= Støtte = 
-
-HandBreak støtter ikke lenger Ubuntu, og vil derfor ikke bli oppdatert. Vurdere å bytte ut HandBreak med ffmpeg?
