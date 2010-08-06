@@ -46,10 +46,11 @@ namespace Mirosubs.Converter.Windows.ConversionFormats {
             AppleVideoFormat.iPodNano, 
             AppleVideoFormat.iPodClassic,
              */
-            DifiTheora.Theora,
             DifiMP4.MP4,
             DifiMP3.MP3,
-            DifiVorbis.Vorbis
+            DifiTheora.Theora,
+            DifiVorbis.Vorbis,
+            DifiFLAC.FLAC
         };
 
         public static ConversionFormat FindByDisplayName(string displayName) {
