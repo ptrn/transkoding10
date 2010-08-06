@@ -20,6 +20,7 @@ ffmpeg -i <FIL INN> -f mp3 -y <FIL UT>
 
 Har prøvd å sette bitrate og samplingfrekvens manuelt, uten at det forander noe.
 
+<hr />
 
 == Konvertering til Ogg Vorbis ikke mulig ==
 
