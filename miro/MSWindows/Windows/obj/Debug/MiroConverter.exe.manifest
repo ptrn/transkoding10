@@ -4,7 +4,7 @@
   <description asmv2:iconFile="resources\converter3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="MiroConverter" version="2.0.3870.25857" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="MiroConverter" version="2.0.3874.15534" language="neutral" processorArchitecture="msil" />
     <commandLine file="MiroConverter.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -89,14 +89,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MiroConverter.exe" size="237568">
-      <assemblyIdentity name="MiroConverter" version="2.0.3870.25857" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MiroConverter.exe" size="238592">
+      <assemblyIdentity name="MiroConverter" version="2.0.3874.15534" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Xz6cSM0HPomKvd9BxKPU05hFn6k=</dsig:DigestValue>
+        <dsig:DigestValue>ijI+8waNv8sfSgka9zv8NY305hU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

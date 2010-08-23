@@ -54,6 +54,7 @@
         <CheckBox Height="16" Margin="0,0,15,71" Name="sendToITunes" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="107" Visibility="Hidden" Foreground="White">Send to iTunes</CheckBox>
         <Button Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="button1" VerticalAlignment="Bottom" Width="75" Click="ConvertClicked">Convert!</Button>
         <miro:LinkButton Margin="10,0,0,7" ButtonText="About/Help" Width="73" Clicked="AboutHelpClicked" HorizontalAlignment="Left" Height="25" ForegroundColor="White" MouseOverForegroundColor="Red"  VerticalAlignment="Bottom"/>
+        <ComboBox Height="23" Margin="75,310,0,0" Name="testBox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="162" />
     </Grid>
 </UserControl>
 <!--
