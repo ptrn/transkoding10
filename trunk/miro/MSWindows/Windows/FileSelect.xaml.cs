@@ -44,6 +44,11 @@ namespace Mirosubs.Converter.Windows {
 
         public FileSelect() {
             InitializeComponent();
+            string[] t = new string[] { "128 kbps", "160 kbps", "192 kbps", "256 kbps", "320 kbps" };
+            Int32[] a = new Int32[] { 128, 160, 192, 256, 320 };
+            foreach (Int32 i in a) {
+                testBox.Items.Add(i);
+            }
             ((CollectionViewSource)this.Resources["GroupedVideoFormats"]).Source = ConversionFormat.All;
         }
         public string FinishedFileName { get; set; }

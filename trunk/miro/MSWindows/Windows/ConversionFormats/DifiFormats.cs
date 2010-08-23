@@ -158,6 +158,8 @@ namespace Mirosubs.Converter.Windows.ConversionFormats
         }
         public override string GetArguments(string inputFileName, string outputFileName)
         {
+            
+
             return string.Format("-i \"{0}\" -y -vn -f ogg -acodec libvorbis -ab 128000 \"{1}\"",
                 inputFileName, outputFileName);
         }
