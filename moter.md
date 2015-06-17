@@ -1,0 +1,1 @@
+Møtereferater er å finne [her](http://media.hiof.no/prosjekt-wiki/dokfilm/doku.php?id=meetings:start).
